@@ -31,7 +31,7 @@ run-user-software:
       dotenv: task.env
   image:
     name: "${TIRA_IMAGE_TO_EXECUTE}"
-    pull_policy: always
+    pull_policy: if-not-present
   timeout: "24 hours"
   variables:
    KUBERNETES_CPU_REQUEST: ${TIRA_CPU_COUNT}
