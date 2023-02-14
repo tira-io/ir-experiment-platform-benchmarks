@@ -1,0 +1,17 @@
+TIRA_IMAGE_TO_EXECUTE=ubuntu:18.04
+TIRA_VM_ID=tira-ir-starter
+TIRA_COMMAND_TO_EXECUTE=echo 'No software to execute. Only evaluation'
+TIRA_SOFTWARE_ID=-1
+TIRA_DATASET_ID=clueweb09-en-trec-web-2010-20230107-training
+TIRA_RUN_ID=2023-01-07-11-58-47
+TIRA_CPU_COUNT=1
+TIRA_MEMORY_IN_GIBIBYTE=10
+TIRA_GPU=0
+TIRA_DATA=no
+TIRA_DATASET_TYPE=training
+TIRA_TASK_ID=ir-benchmarks
+TIRA_EVALUATOR_TRANSACTION_ID=1281c5be-39b3-4347-ba3e-c2e5ca41c8b3
+TIRA_GIT_ID=eval---clueweb09-en-trec-web-2010-20230107-training---tira-ir-starter---2023-01-07-11-58-47---started-2023-02-14-17-03-29
+TIRA_EVALUATION_IMAGE_TO_EXECUTE=webis/ir_measures_evaluator:1.0.5
+TIRA_EVALUATION_COMMAND_TO_EXECUTE=/ir_measures_evaluator.py --run ${inputRun}/run.txt --topics ${inputDataset}/queries.jsonl --qrels ${inputDataset}/qrels.txt --output_path ${outputDir} --measures "P@10" "nDCG@10" "MRR"
+TIRA_EVALUATION_SOFTWARE_ID=clueweb09-en-trec-web-2010-20230107-training-evaluator
