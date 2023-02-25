@@ -1,3 +1,5 @@
 docker==5.0.3
 pandas
 jupyterlab
+tira
+python-terrier

@@ -1,3 +1,5 @@
 docker-softwares
 **/run
 **/evaluation
+.ipynb_checkpoints/
+.venv/
