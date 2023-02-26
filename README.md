@@ -1,19 +1,29 @@
 # Shared Task on ir-benchmarks
 
-This repository serves as the main entrypoint to the shared task on ir-benchmarks.
-The `tira` command shipped with this repository serves as entrypoint to all functionality and is used by the TIRA frontend as well.
+This repository exemplifies how archived shared task repositories of the IR Experiment Platform look like.
+Here, we have archived the [Retrieval Benchmarks in the IR Experiment Platform](https://www.tira.io/task/ir-benchmarks).
 
-As this repository contains a huge number of~2000 software executions (we executed some runs multiple times to double-check reproducibility), we excluded the runs from the repository as the repository would otherwise be roughly 4 GB in size. (via docker ignore, we have a complete backup outside of TIRA, please note that public runs can still be accessed via TIRA, the notebooks provide examples.)
+The archived shared task repositories allow post-hoc experiments, and we provide several tutorials with examples in Jupyter Notebooks.
 
-## Evaluate Runs
-
-You can evaluate runs with the following command:
+To start the jupyter notebook, please clone the archived shared task repository:
 
 ```
-./tira run-evaluate --task_id clickbait-spoiling --vm_id princess-knight --run_id 2022-07-20-12-54-28 --dataset_id clickbait-spoiling-task-01-validation-dataset-2022-08-01 --transaction_id XXXX
+git clone git@github.com:tira-io/ir-experiment-platform-benchmarks.git
 ```
 
-## Execute Software Submissions
+Inside the cloned repository, you can start the Jupyter notebook which automatically installs a minimal virtual environment using:
+```
+make jupyterlab
+```
 
-TBD.
 
+The installation of the environment is simplified with a virtual environment and executing `make jupyterlab` installs the virtual environment (if not already done) and starts the jupyter notebook ready to run all parts of the tutorial.
+
+For each of the softwares submitted to TIRA, the `tira` integration to PyTerrier loads the Docker Image submitted to TIRA to execute it in PyTerrier pipelines (i.e., a first execution could take sligthly longer).
+
+The following tutorial notebooks are available:
+
+- [Tutorial.ipynb](Tutorial.ipynb): A general purpose tutorial showing the first steps.
+- [full-rank-retriever-tutorial.ipynb](full-rank-retriever-tutorial.ipynb): showcases how full-rankers can be reproduced/replicated.
+- [re-rank-tutorial.ipynb](re-rank-tutorial.ipynb): showcases how re-rankers can be reproduced/replicated.
+- [interoparability-tutorial](interoparability-tutorial): showcases how full-rankers and re-rankers submitted in TIRA can be combined in new ways in post-hoc experiments.
