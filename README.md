@@ -26,4 +26,4 @@ The following tutorial notebooks are available:
 - [Tutorial.ipynb](Tutorial.ipynb): A general purpose tutorial showing the first steps.
 - [full-rank-retriever-tutorial.ipynb](full-rank-retriever-tutorial.ipynb): showcases how full-rankers can be reproduced/replicated.
 - [re-rank-tutorial.ipynb](re-rank-tutorial.ipynb): showcases how re-rankers can be reproduced/replicated.
-- [interoparability-tutorial](interoparability-tutorial): showcases how full-rankers and re-rankers submitted in TIRA can be combined in new ways in post-hoc experiments.
+- [interoparability-tutorial.ipynb](interoparability-tutorial.ipynb): showcases how full-rankers and re-rankers submitted in TIRA can be combined in new ways in post-hoc experiments.
