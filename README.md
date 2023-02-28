@@ -53,7 +53,7 @@ The current leaderboards can be viewed in [tira.io](https://www.tira.io/task/ir-
 - [TREC Web Track 2009 (ClueWeb09)](https://www.tira.io/task/ir-benchmarks#clueweb09-en-trec-web-2009-20230107-training)
 - [TREC Web Track 2010 (ClueWeb09)](https://www.tira.io/task/ir-benchmarks#clueweb09-en-trec-web-2010-20230107-training)
 - [TREC Web Track 2011 (ClueWeb09)](https://www.tira.io/task/ir-benchmarks#clueweb09-en-trec-web-2011-20230107-training)
-- [TREC Web Track 2012 (ClueWeb09)](https://www.tira.io/task/ir-benchmarks#clueweb09-en-trec-web-2012-20230107-training
+- [TREC Web Track 2012 (ClueWeb09)](https://www.tira.io/task/ir-benchmarks#clueweb09-en-trec-web-2012-20230107-training)
 - [TREC Terabyte 2004 (gov2)](https://www.tira.io/task/ir-benchmarks#gov2-trec-tb-2004-20230209-training)
 - [TREC Terabyte 2005 (gov2)](https://www.tira.io/task/ir-benchmarks#gov2-trec-tb-2005-20230209-training)
 - [TREC Terabyte 2006 (gov2)](https://www.tira.io/task/ir-benchmarks#gov2-trec-tb-2006-20230209-training)
